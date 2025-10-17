@@ -1,0 +1,644 @@
+[ {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setXAxis",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setXAxis(int)",
+  "content" : "void setXAxis(int value) { _xAxis = value; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "name" : "processTelemetry",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\processTelemetry(std::string)",
+  "content" : "void processTelemetry(std::string data) {\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "unsigned short",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "transfer16",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\transfer16(unsigned short)",
+  "content" : "unsigned short transfer16(unsigned short data) { return 0; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "end",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\end()",
+  "content" : "void end() {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "detachInterrupt",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\detachInterrupt()",
+  "content" : "void detachInterrupt() {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "begin",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\setupPotentiometers()" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\begin()",
+  "content" : "void begin() {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setButton(unsigned char,unsigned char)" ],
+    "all_calls_detected" : [ "setButton(button, 0)" ],
+    "name" : "releaseButton",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\releaseButton(unsigned char)",
+  "content" : "void releaseButton(unsigned char button) { setButton(button, 0); }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "attachInterrupt",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\attachInterrupt()",
+  "content" : "void attachInterrupt() {}"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h",
+    "name" : "GearSensor",
+    "type" : "class"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h\\GearSensor",
+  "content" : "class GearSensor {\npublic:\n    GearSensor();\n    bool setup();;\n    void process();;\n    Gear getGear();\n    GearSensor();\n};"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "name" : "setupLightsAndButtons",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\setupLightsAndButtons()",
+  "content" : "void setupLightsAndButtons() {\r\n\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setSteering",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setSteering(int)",
+  "content" : "void setSteering(int value) { _steering = value; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp",
+    "name" : "GearSensor::process",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\loop()" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\GearSensor::process()",
+  "content" : "void GearSensor::process() {}"
+}, {
+  "metadata" : {
+    "return_type" : "bool",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp",
+    "name" : "CANRaw::sendFrame",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::updateDashboard()" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\CANRaw::sendFrame(CAN_FRAME&)",
+  "content" : "bool CANRaw::sendFrame(CAN_FRAME &frame) {}"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "Joystick_",
+    "type" : "class"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_",
+  "content" : "class Joystick_ {\npublic:\n     Joystick_(\r\n        unsigned char hidReportId = 0x03,\r\n        unsigned char joystickType = 0x04,\r\n        unsigned char buttonCount = JOYSTICK_DEFAULT_BUTTON_COUNT,\r\n        unsigned char hatSwitchCount = JOYSTICK_DEFAULT_HATSWITCH_COUNT,\r\n        bool includeXAxis = true,\r\n        bool includeYAxis = true,\r\n        bool includeZAxis = true,\r\n        bool includeRxAxis = true,\r\n        bool includeRyAxis = true,\r\n        bool includeRzAxis = true,\r\n        bool includeRudder = true,\r\n        bool includeThrottle = true,\r\n        bool includeAccelerator = true,\r\n        bool includeBrake = true,\r\n        bool includeSteering = true\r\n    );\n     Joystick_(\r\n        unsigned char hidReportId = 0x03,\r\n        unsigned char joystickType = 0x04,\r\n        unsigned char buttonCount = JOYSTICK_DEFAULT_BUTTON_COUNT,\r\n        unsigned char hatSwitchCount = JOYSTICK_DEFAULT_HATSWITCH_COUNT,\r\n        bool includeXAxis = true,\r\n        bool includeYAxis = true,\r\n        bool includeZAxis = true,\r\n        bool includeRxAxis = true,\r\n        bool includeRyAxis = true,\r\n        bool includeRzAxis = true,\r\n        bool includeRudder = true,\r\n        bool includeThrottle = true,\r\n        bool includeAccelerator = true,\r\n        bool includeBrake = true,\r\n        bool includeSteering = true\r\n    );\n    void begin(bool initAutoSendState = true);\n    void end();\n    void setXAxis(int value);\n    void setYAxis(int value);\n    void setZAxis(int value);\n    void setRxAxis(int value);\n    void setRyAxis(int value);\n    void setRzAxis(int value);\n    void setRudder(int value);\n    void setThrottle(int value);\n    void setAccelerator(int value);\n    void setBrake(int value);\n    void setSteering(int value);\n    void setButton(unsigned char button, unsigned char value);\n    void pressButton(unsigned char button);\n    void releaseButton(unsigned char button);\n    void setHatSwitch(int hatSwitchIndex, int value);\n    void sendState();\n    void setAutoSendState(bool value);\n    bool getAutoSendState();\n};"
+}, {
+  "metadata" : {
+    "return_type" : "",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "SPISettings",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPISettings\\SPISettings()",
+  "content" : "SPISettings() : clock(4000000), bitOrder(MSBFIRST), dataMode(SPI_MODE0) {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "endTransaction",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\endTransaction()",
+  "content" : "void endTransaction() {}"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h",
+    "name" : "",
+    "type" : "struct"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h\\CAN_FRAME_DATA\\",
+  "content" : "struct  {\npublic:\n    ();\n    ();\n    unsigned int bit0;\n    unsigned int bit1;\n    unsigned int bit2;\n    unsigned int bit3;\n    unsigned int bit4;\n    unsigned int bit5;\n    unsigned int bit6;\n    unsigned int bit7;\n    unsigned int bit8;\n    unsigned int bit9;\n    unsigned int bit10;\n    unsigned int bit11;\n    unsigned int bit12;\n    unsigned int bit13;\n    unsigned int bit14;\n    unsigned int bit15;\n    unsigned int bit16;\n    unsigned int bit17;\n    unsigned int bit18;\n    unsigned int bit19;\n    unsigned int bit20;\n    unsigned int bit21;\n    unsigned int bit22;\n    unsigned int bit23;\n    unsigned int bit24;\n    unsigned int bit25;\n    unsigned int bit26;\n    unsigned int bit27;\n    unsigned int bit28;\n    unsigned int bit29;\n    unsigned int bit30;\n    unsigned int bit31;\n    unsigned int bit32;\n    unsigned int bit33;\n    unsigned int bit34;\n    unsigned int bit35;\n    unsigned int bit36;\n    unsigned int bit37;\n    unsigned int bit38;\n    unsigned int bit39;\n    unsigned int bit40;\n    unsigned int bit41;\n    unsigned int bit42;\n    unsigned int bit43;\n    unsigned int bit44;\n    unsigned int bit45;\n    unsigned int bit46;\n    unsigned int bit47;\n    unsigned int bit48;\n    unsigned int bit49;\n    unsigned int bit50;\n    unsigned int bit51;\n    unsigned int bit52;\n    unsigned int bit53;\n    unsigned int bit54;\n    unsigned int bit55;\n    unsigned int bit56;\n    unsigned int bit57;\n    unsigned int bit58;\n    unsigned int bit59;\n    unsigned int bit60;\n    unsigned int bit61;\n    unsigned int bit62;\n    unsigned int bit63;\n};"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "beginTransaction",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\beginTransaction(SPISettings)",
+  "content" : "void beginTransaction(SPISettings settings) {}"
+}, {
+  "metadata" : {
+    "return_type" : "unsigned char",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "transfer",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\transfer(unsigned char)",
+  "content" : "unsigned char transfer(unsigned char data) { return 0; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setRxAxis",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setRxAxis(int)",
+  "content" : "void setRxAxis(int value) { _rxAxis = value; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "name" : "toggleEmulationMode",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\toggleEmulationMode()",
+  "content" : "void toggleEmulationMode() {\r\n  switch (mode) {\r\n    case EmulationMode::Xbox:\r\n      mode = EmulationMode::PC;\r\n      break;\r\n    case EmulationMode::PC:\r\n      mode = EmulationMode::Xbox;\r\n      break;\r\n  }\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "uint8_t",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "name" : "buttonForGear",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\buttonForGear(Gear)",
+  "content" : "uint8_t buttonForGear(Gear gear) {\r\n  return gear == gear == Gear::Reverse ? 8 : gear;\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setHatSwitch",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setHatSwitch(int,int)",
+  "content" : "void setHatSwitch(int hatSwitchIndex, int value) {\r\n        if (hatSwitchIndex >= 0 && hatSwitchIndex < 4) {\r\n            _hatSwitches[hatSwitchIndex] = value;\r\n        }\r\n    }"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\XboxButtons.h",
+    "name" : "XboxButtons",
+    "type" : "enum"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\XboxButtons.h\\XboxButtons",
+  "content" : "enum XboxButtons : uint8_t {\r\n  LEFT_X1 = 0,\r\n  LEFT_X2,\r\n  LEFT_THUMBSTICK,\r\n  LEFT_BUMPER,\r\n  A,\r\n  B,\r\n  LEFT_VIEW,\r\n  LEFT_MENU,\r\n\r\n  RIGHT_SELECT = 0,\r\n  RIGHT_VIEW,\r\n  RIGHT_THUMBSTICK,\r\n  RIGHT_BUMPER,\r\n  X,\r\n  Y,\r\n  RIGHT_X1,\r\n  RIGHT_X2\r\n};"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "transfer",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\transfer(void*,size_t)",
+  "content" : "void transfer(void* buf, size_t count) {}"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "SPIClass",
+    "type" : "class"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass",
+  "content" : "class SPIClass {\npublic:\n    SPIClass();\n    void begin();\n    void end();\n    void beginTransaction(SPISettings settings);\n    void endTransaction();\n    unsigned char transfer(unsigned char data);\n    unsigned short transfer16(unsigned short data);\n    void transfer(void* buf, size_t count);\n    void setBitOrder(unsigned char bitOrder);\n    void setDataMode(unsigned char dataMode);\n    void setClockDivider(unsigned char clockDiv);\n    void attachInterrupt();\n    void detachInterrupt();\n    SPIClass();\n};"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h",
+    "all_calls_detected" : [ "s.find(delim, end)", "out.push_back(s.substr(beg, end - beg))", "s.substr(beg, end - beg)", "out.push_back(s.substr(beg))", "s.substr(beg)" ],
+    "name" : "tokenize",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h\\tokenize(std::string const&,char const,std::vector<std::string>&)",
+  "content" : "void tokenize(const std::string& s, const char delim, std::vector<std::string>& out)\r\n{\r\n\tstd::string::size_type beg = 0;\r\n\tfor (auto end = 0; (end = s.find(delim, end)) != std::string::npos; ++end)\r\n\t{\r\n\t\tout.push_back(s.substr(beg, end - beg));\r\n\t\tbeg = end + 1;\r\n\t}\r\n\r\n\tout.push_back(s.substr(beg));\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setZAxis",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setZAxis(int)",
+  "content" : "void setZAxis(int value) { _zAxis = value; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\GearSensor::process()", "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h\\GearSensor\\getGear()", "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
+    "all_calls_detected" : [ "gearSensor.process()", "gearSensor.getGear()", "can.newVehicleData()", "gearSensor.getGear()", "updatePose(pose)" ],
+    "name" : "loop",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\loop()",
+  "content" : "void loop() {\r\n  gearSensor.process();\r\n  Gear gear = gearSensor.getGear();\r\n\r\n  // if we have any new CAN bus data\r\n  if (can.newVehicleData() || gear != lastGear) {\r\n    Pose pose = can.pose;\r\n    pose.gear = gearSensor.getGear();\r\n\r\n    updatePose(pose);\r\n    lastPose = pose;\r\n  }\r\n\r\n  // if we have any telemetry updates to make\r\n  // if (SerialUSB.available())\r\n    // processTelemetry(SerialUSB.readStringUntil('\\n').c_str());\r\n\r\n  // can.updateDashboard();\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "name" : "setupJoystick",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\setupJoystick()",
+  "content" : "void setupJoystick() {\r\n\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setXAxis(int)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setYAxis(int)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setZAxis(int)", "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\buttonForGear(Gear)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\releaseButton(unsigned char)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\pressButton(unsigned char)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\sendState()" ],
+    "all_calls_detected" : [ "joystick->setXAxis(pose.steering)", "joystick->setYAxis(ACCEL_MAX - pose.accelerator)", "joystick->setZAxis(pose.brakes)", "buttonForGear(pose.gear)", "joystick->releaseButton(buttonForGear(lastGear))", "buttonForGear(lastGear)", "joystick->pressButton(button)", "joystick->pressButton(8)", "joystick->releaseButton(8)", "joystick->pressButton(9)", "joystick->releaseButton(9)", "joystick->sendState()" ],
+    "name" : "updatePose",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\loop()" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)",
+  "content" : "void updatePose(Pose pose) {\r\n  float scaledAccel, scaledBrakes;\r\n\r\n  switch (mode) {\r\n    case EmulationMode::Xbox:\r\n      break;\r\n    case EmulationMode::PC:\r\n      // steering, accelerator, and brakes\r\n      joystick->setXAxis(pose.steering);\r\n      joystick->setYAxis(ACCEL_MAX - pose.accelerator);\r\n      joystick->setZAxis(pose.brakes);\r\n\r\n      // gear\r\n      uint8_t button = buttonForGear(pose.gear);\r\n      if (pose.gear != lastGear) {\r\n        joystick->releaseButton(buttonForGear(lastGear));\r\n        // press and store new gear\r\n        joystick->pressButton(button);\r\n        lastGear = pose.gear;\r\n      }\r\n\r\n      // upshift pressed\r\n      // pose.upshift ? joystick->pressButton(0) : joystick->releaseButton(0);\r\n\r\n      // downshift pressed\r\n      // pose.downshift ? joystick->pressButton(1) : joystick->releaseButton(1);\r\n\r\n      // clutch\r\n      pose.clutch ? joystick->pressButton(8) : joystick->releaseButton(8);\r\n\r\n      // e-brake\r\n      pose.ebrake ? joystick->pressButton(9) : joystick->releaseButton(9);\r\n      \r\n      break;\r\n  }\r\n\r\n  // update joystick state\r\n  joystick->sendState();\r\n}"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h",
+    "name" : "CAN_FRAME",
+    "type" : "struct"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h\\CAN_FRAME",
+  "content" : "struct CAN_FRAME {\npublic:\n    CAN_FRAME();\n    CAN_FRAME();\n    unsigned int id;\n    unsigned char length;\n    CAN_FRAME_DATA data;\n    bool extended;\n    bool rtr;\n    unsigned int timestamp;\n};"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "name" : "setupCAN",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\setupCAN()",
+  "content" : "void setupCAN() {\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setRyAxis",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setRyAxis(int)",
+  "content" : "void setRyAxis(int value) { _ryAxis = value; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp",
+    "name" : "CANProcessor::updateTelemetry",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::updateTelemetry(float,int)",
+  "content" : "void CANProcessor::updateTelemetry(float speed, int rpm) {\r\n  _speed = speed;\r\n  _rpm = rpm;\r\n}"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.h",
+    "name" : "CANProcessor",
+    "type" : "class"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.h\\CANProcessor",
+  "content" : "class CANProcessor {\npublic:\n    CANProcessor();\n    bool newVehicleData();;\n    bool checkBus(CANRaw *bus);;\n    bool processFrame(CAN_FRAME &frame);;\n    void updateDashboard();;\n    void updateTelemetry(float speed, int rpm);;\n    CANProcessor();\n    float _speed;\n    int _rpm;\n    Pose pose;\n};"
+}, {
+  "metadata" : {
+    "return_type" : "bool",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp",
+    "name" : "CANProcessor::processFrame",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::processFrame(CAN_FRAME&)",
+  "content" : "bool CANProcessor::processFrame(CAN_FRAME &frame) {\r\n  bool newData = false;\r\n  \r\n  if (frame.id == 0xD0) {\r\n    // steering\r\n    int16_t steering = frame.data.bytes[1] << 8 | frame.data.bytes[0];\r\n\r\n    if (steering != pose.steering) {\r\n      newData = true;\r\n      pose.steering = steering;\r\n    }\r\n  }\r\n  else if (frame.id == 0xD1) {\r\n    lastBrakeSpeedFrame = frame;\r\n\r\n    // brake pedal pressure\r\n    uint8_t brakes = frame.data.bytes[2];\r\n\r\n    if (brakes != pose.brakes) {\r\n      newData = true;\r\n      pose.brakes = brakes;\r\n    }\r\n  }\r\n  else if (frame.id == 0x140) {\r\n    // accelerator pedal position + clutch engaged / not\r\n    uint8_t accelerator = frame.data.bytes[0];\r\n    bool clutch = frame.data.bit[15];\r\n\r\n    if (pose.accelerator != accelerator || pose.clutch != clutch)\r\n      newData = true;\r\n    \r\n    pose.accelerator = accelerator;\r\n    pose.clutch = clutch;\r\n  }\r\n  else if (frame.id == 0x141) {\r\n    lastTransmissionFrame = frame;\r\n    bool inGear = frame.data.bytes[5] == 0x80;\r\n\r\n    if (pose.inGear != inGear) {\r\n      newData = true;\r\n      pose.inGear = inGear;\r\n      // SerialUSB.print(\"In gear: \");\r\n      // SerialUSB.println(pose.inGear);\r\n    }\r\n  }\r\n  else if (frame.id == 0x144) {\r\n    // cruise control stalk (used for upshift / downshift)\r\n    uint8_t cruiseControlStalk = frame.data.byte[0];\r\n\r\n    bool upshift = cruiseControlStalk == 0xD0;\r\n    bool downshift = cruiseControlStalk == 0xC8;\r\n    // if (pose.upshift != upshift || pose.downshift != downshift) {\r\n    //   pose.upshift = upshift;\r\n    //   pose.downshift = downshift;\r\n    //   newData = true;\r\n    // }\r\n  }\r\n  else if (frame.id == 0x152) {\r\n    // e-brake engaged or not\r\n    bool ebrake = frame.data.bit[51];\r\n\r\n    if (pose.ebrake != ebrake)\r\n      newData = true;\r\n\r\n    pose.ebrake = ebrake;\r\n  }\r\n\r\n  return newData;\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setYAxis",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setYAxis(int)",
+  "content" : "void setYAxis(int value) { _yAxis = value; }"
+}, {
+  "metadata" : {
+    "return_type" : "",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "Joystick_",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\Joystick_(unsigned char= 0x03,unsigned char= 0x04,unsigned char= ,unsigned char= ,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true,bool= true)",
+  "content" : "Joystick_(\r\n        unsigned char hidReportId = 0x03,\r\n        unsigned char joystickType = 0x04,\r\n        unsigned char buttonCount = JOYSTICK_DEFAULT_BUTTON_COUNT,\r\n        unsigned char hatSwitchCount = JOYSTICK_DEFAULT_HATSWITCH_COUNT,\r\n        bool includeXAxis = true,\r\n        bool includeYAxis = true,\r\n        bool includeZAxis = true,\r\n        bool includeRxAxis = true,\r\n        bool includeRyAxis = true,\r\n        bool includeRzAxis = true,\r\n        bool includeRudder = true,\r\n        bool includeThrottle = true,\r\n        bool includeAccelerator = true,\r\n        bool includeBrake = true,\r\n        bool includeSteering = true\r\n    ) : _buttonCount(buttonCount), _hatSwitchCount(hatSwitchCount),\r\n        _includeXAxis(includeXAxis), _includeYAxis(includeYAxis), _includeZAxis(includeZAxis),\r\n        _includeRxAxis(includeRxAxis), _includeRyAxis(includeRyAxis), _includeRzAxis(includeRzAxis),\r\n        _includeRudder(includeRudder), _includeThrottle(includeThrottle),\r\n        _includeAccelerator(includeAccelerator), _includeBrake(includeBrake), _includeSteering(includeSteering),\r\n        _xAxis(0), _yAxis(0), _zAxis(0), _rxAxis(0), _ryAxis(0), _rzAxis(0),\r\n        _rudder(0), _throttle(0), _accelerator(0), _brake(0), _steering(0), _buttons(0)\r\n    {\r\n        for (int i = 0; i < 4; i++) {\r\n            _hatSwitches[i] = JOYSTICK_HATSWITCH_RELEASE;\r\n        }\r\n    }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setThrottle",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setThrottle(int)",
+  "content" : "void setThrottle(int value) { _throttle = value; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setAutoSendState",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setAutoSendState(bool)",
+  "content" : "void setAutoSendState(bool value) {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "setClockDivider",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\setClockDivider(unsigned char)",
+  "content" : "void setClockDivider(unsigned char clockDiv) {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "setDataMode",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\setDataMode(unsigned char)",
+  "content" : "void setDataMode(unsigned char dataMode) {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setRzAxis",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setRzAxis(int)",
+  "content" : "void setRzAxis(int value) { _rzAxis = value; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setRudder",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setRudder(int)",
+  "content" : "void setRudder(int value) { _rudder = value; }"
+}, {
+  "metadata" : {
+    "return_type" : "",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp",
+    "name" : "CANRaw::CANRaw",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\CANRaw::CANRaw(int)",
+  "content" : "CANRaw::CANRaw(int bus) {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "sendState",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\sendState()",
+  "content" : "void sendState() {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "name" : "setup",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\setup()",
+  "content" : "void setup() {\r\n\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setButton",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\pressButton(unsigned char)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\releaseButton(unsigned char)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setButton(unsigned char,unsigned char)",
+  "content" : "void setButton(unsigned char button, unsigned char value) {\r\n        if (value == 0) {\r\n            _buttons &= ~(1UL << button);\r\n        } else {\r\n            _buttons |= (1UL << button);\r\n        }\r\n    }"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\EmulationMode.h",
+    "name" : "EmulationMode",
+    "type" : "enum"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\EmulationMode.h\\EmulationMode",
+  "content" : "enum EmulationMode : uint8_t {\r\n  Xbox,\r\n  PC\r\n};"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp",
+    "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\CANRaw::sendFrame(CAN_FRAME&)" ],
+    "all_calls_detected" : [ "Can0.sendFrame(lastTransmissionFrame)", "Can0.sendFrame(lastBrakeSpeedFrame)" ],
+    "name" : "CANProcessor::updateDashboard",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::updateDashboard()",
+  "content" : "void CANProcessor::updateDashboard() {\r\n  // lastTransmissionFrame.data.byte[4] = _rpm % 256;\r\n  // lastTransmissionFrame.data.byte[5] = _rpm / 256 + 0x80;\r\n  Can0.sendFrame(lastTransmissionFrame);\r\n\r\n  union {\r\n    uint16_t convertedSpeed;\r\n    uint8_t bytes[2];\r\n  } speedData;\r\n\r\n  // speedData.convertedSpeed = round(_speed / 0.05747);\r\n  // lastBrakeSpeedFrame.data.byte[0] = speedData.bytes[0];\r\n  // lastBrakeSpeedFrame.data.byte[1] = speedData.bytes[1];\r\n  Can0.sendFrame(lastBrakeSpeedFrame);\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "bool",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp",
+    "name" : "CANRaw::read",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\CANRaw::read(CAN_FRAME&)",
+  "content" : "bool CANRaw::read(CAN_FRAME &frame) {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setBrake",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setBrake(int)",
+  "content" : "void setBrake(int value) { _brake = value; }"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Gear.h",
+    "name" : "Gear",
+    "type" : "enum"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Gear.h\\Gear",
+  "content" : "enum Gear : uint8_t {\r\n  Neutral = 0,\r\n  First,\r\n  Second,\r\n  Third,\r\n  Fourth,\r\n  Fifth,\r\n  Sixth,\r\n  Reverse\r\n};"
+}, {
+  "metadata" : {
+    "return_type" : "bool",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp",
+    "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)" ],
+    "all_calls_detected" : [ "checkBus(&Can0)", "checkBus(&Can1)" ],
+    "name" : "CANProcessor::newVehicleData",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::newVehicleData()",
+  "content" : "bool CANProcessor::newVehicleData() {\r\n  bool newData = false;\r\n  newData = newData || checkBus(&Can0);\r\n  newData = newData || checkBus(&Can1);\r\n\r\n  return newData;\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "Gear",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h",
+    "name" : "getGear",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\loop()" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h\\GearSensor\\getGear()",
+  "content" : "Gear getGear() { return gear; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setButton(unsigned char,unsigned char)" ],
+    "all_calls_detected" : [ "setButton(button, 1)" ],
+    "name" : "pressButton",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\pressButton(unsigned char)",
+  "content" : "void pressButton(unsigned char button) { setButton(button, 1); }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "end",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\end()",
+  "content" : "void end() {}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "setBitOrder",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\setBitOrder(unsigned char)",
+  "content" : "void setBitOrder(unsigned char bitOrder) {}"
+}, {
+  "metadata" : {
+    "return_type" : "bool",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp",
+    "name" : "CANRaw::available",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\CANRaw::available()",
+  "content" : "bool CANRaw::available() {}"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Pose.h",
+    "name" : "Pose",
+    "type" : "struct"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Pose.h\\Pose",
+  "content" : "struct Pose {\npublic:\n    Pose();\n    Pose();\n    int16_t steering;\n    uint8_t brakes;\n    uint8_t accelerator;\n    bool clutch;\n    bool upshift;\n    bool downshift;\n    bool ebrake;\n    bool rewind;\n    bool view;\n    bool menu;\n    bool inGear;\n    bool inReverse;\n    Gear gear;\n};"
+}, {
+  "metadata" : {
+    "return_type" : "bool",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "getAutoSendState",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\getAutoSendState()",
+  "content" : "bool getAutoSendState() { return true; }"
+}, {
+  "metadata" : {
+    "return_type" : "bool",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp",
+    "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\CANRaw::available()", "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\CANRaw::read(CAN_FRAME&)", "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::processFrame(CAN_FRAME&)" ],
+    "all_calls_detected" : [ "bus->available()", "bus->read(frame)", "processFrame(frame)" ],
+    "name" : "CANProcessor::checkBus",
+    "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::newVehicleData()" ],
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)",
+  "content" : "bool CANProcessor::checkBus(CANRaw *bus) {\r\n  CAN_FRAME frame;\r\n  if (bus->available() > 0) {\r\n    // digitalWrite(DS2, LOW);\r\n\r\n    bus->read(frame);\r\n    return processFrame(frame);\r\n  }\r\n  // digitalWrite(DS2, HIGH);\r\n  return false;\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "begin",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\begin(bool= true)",
+  "content" : "void begin(bool initAutoSendState = true) {}"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "SPISettings",
+    "type" : "class"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPISettings",
+  "content" : "class SPISettings {\npublic:\n     SPISettings(unsigned long clockFreq, unsigned char bitOrder, unsigned char dataMode);\n     SPISettings();\n     SPISettings(unsigned long clockFreq, unsigned char bitOrder, unsigned char dataMode);\n     SPISettings();\n    unsigned long clock;\n    unsigned char bitOrder;\n    unsigned char dataMode;\n};"
+}, {
+  "metadata" : {
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h",
+    "name" : "CANRaw",
+    "type" : "class"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h\\CANRaw",
+  "content" : "class CANRaw {\npublic:\n     CANRaw::CANRaw(int bus);\n    CANRaw(int bus);;\n    bool begin();;\n    bool begin(unsigned int baudrate);;\n    bool begin(unsigned int baudrate, unsigned char enable_pins);;\n    bool available();;\n    bool read(CAN_FRAME &frame);;\n    bool sendFrame(CAN_FRAME &frame);;\n    bool setFilter(unsigned int id, unsigned int mask, bool extended = false);;\n    bool setFilterRange(unsigned int idLow, unsigned int idHigh, bool extended = false);;\n    bool setRXFilter(int filterNum, unsigned int id, unsigned int mask, bool extended = false);;\n    void clearFilters();;\n    void enable();;\n    void disable();;\n    bool isEnabled();;\n    unsigned int getBaudRate();;\n    unsigned int getRxCount();;\n    unsigned int getTxCount();;\n    unsigned int getErrorCount();;\n    void setCallback(int mailbox, void (*callback)(CAN_FRAME*));;\n    void attachCANInterrupt(void (*callback)(CAN_FRAME*));;\n    void detachCANInterrupt();;\n};"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "name" : "setAccelerator",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setAccelerator(int)",
+  "content" : "void setAccelerator(int value) { _accelerator = value; }"
+}, {
+  "metadata" : {
+    "return_type" : "void",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\begin()" ],
+    "all_calls_detected" : [ "SPI.begin()" ],
+    "name" : "setupPotentiometers",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\setupPotentiometers()",
+  "content" : "void setupPotentiometers() {\r\n  SPI.begin();\r\n}"
+}, {
+  "metadata" : {
+    "return_type" : "",
+    "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "name" : "SPISettings",
+    "type" : "function"
+  },
+  "id" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPISettings\\SPISettings(unsigned long,unsigned char,unsigned char)",
+  "content" : "SPISettings(unsigned long clockFreq, unsigned char bitOrder, unsigned char dataMode) \r\n        : clock(clockFreq), bitOrder(bitOrder), dataMode(dataMode) {}"
+} ]

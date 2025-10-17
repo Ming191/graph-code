@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  neo4j:
+    image: neo4j:5.18.0-community  # Sử dụng phiên bản Neo4j 5 ổn định
+    container_name: coderag_neo4j
+    ports:
+      - "7474:7474"  # Cổng HTTP cho trình duyệt Neo4j
+      - "7687:7687"  # Cổng Bolt cho driver kết nối từ Python
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - ./neo4j/plugins:/plugins # Thư mục để thêm các plugin nếu cần
+    environment:
+      # Đặt mật khẩu cho Neo4j. Hãy thay đổi thành một mật khẩu mạnh!
+      - NEO4J_AUTH=neo4j/password
+      - NEO4J_PLUGINS=["apoc", "graph-data-science"] # Cài sẵn các plugin hữu ích
+      - NEO4J_server_memory_heap_initial__size=1G # Tùy chỉnh bộ nhớ nếu cần
+      - NEO4J_server_memory_heap_max__size=2G
+    healthcheck:
+      test: ["CMD-SHELL", "wget -O /dev/null --post-data 'c=RETURN 1' http://localhost:7474/cypher || exit 1"]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
