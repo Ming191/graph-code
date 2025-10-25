@@ -2,6 +2,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setXAxis(int)",
     "name" : "setXAxis",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
     "type" : "function"
@@ -12,6 +13,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h" ],
+    "signature" : "void processTelemetry(std::string)",
     "name" : "processTelemetry",
     "type" : "function"
   },
@@ -21,6 +24,7 @@
   "metadata" : {
     "return_type" : "unsigned short",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "unsigned short transfer16(unsigned short)",
     "name" : "transfer16",
     "type" : "function"
   },
@@ -30,6 +34,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "void end()",
     "name" : "end",
     "type" : "function"
   },
@@ -39,6 +44,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "void detachInterrupt()",
     "name" : "detachInterrupt",
     "type" : "function"
   },
@@ -48,6 +54,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "void begin()",
     "name" : "begin",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\setupPotentiometers()" ],
     "type" : "function"
@@ -58,6 +65,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void releaseButton(unsigned char)",
     "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setButton(unsigned char,unsigned char)" ],
     "all_calls_detected" : [ "setButton(button, 0)" ],
     "name" : "releaseButton",
@@ -70,6 +78,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "void attachInterrupt()",
     "name" : "attachInterrupt",
     "type" : "function"
   },
@@ -78,6 +87,7 @@
 }, {
   "metadata" : {
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Pose.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\Gear.h" ],
     "name" : "GearSensor",
     "type" : "class"
   },
@@ -87,6 +97,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h" ],
+    "signature" : "void setupLightsAndButtons()",
     "name" : "setupLightsAndButtons",
     "type" : "function"
   },
@@ -96,6 +108,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setSteering(int)",
     "name" : "setSteering",
     "type" : "function"
   },
@@ -105,6 +118,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h" ],
+    "signature" : "void GearSensor::process()",
     "name" : "GearSensor::process",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\loop()" ],
     "type" : "function"
@@ -115,6 +130,8 @@
   "metadata" : {
     "return_type" : "bool",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h" ],
+    "signature" : "bool CANRaw::sendFrame(CAN_FRAME&)",
     "name" : "CANRaw::sendFrame",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::updateDashboard()" ],
     "type" : "function"
@@ -133,6 +150,7 @@
   "metadata" : {
     "return_type" : "",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "SPISettings()",
     "name" : "SPISettings",
     "type" : "function"
   },
@@ -142,6 +160,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "void endTransaction()",
     "name" : "endTransaction",
     "type" : "function"
   },
@@ -159,6 +178,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "void beginTransaction(SPISettings)",
     "name" : "beginTransaction",
     "type" : "function"
   },
@@ -168,6 +188,7 @@
   "metadata" : {
     "return_type" : "unsigned char",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "unsigned char transfer(unsigned char)",
     "name" : "transfer",
     "type" : "function"
   },
@@ -177,6 +198,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setRxAxis(int)",
     "name" : "setRxAxis",
     "type" : "function"
   },
@@ -186,6 +208,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h" ],
+    "signature" : "void toggleEmulationMode()",
     "name" : "toggleEmulationMode",
     "type" : "function"
   },
@@ -195,6 +219,8 @@
   "metadata" : {
     "return_type" : "uint8_t",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h" ],
+    "signature" : "uint8_t buttonForGear(Gear)",
     "name" : "buttonForGear",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
     "type" : "function"
@@ -205,6 +231,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setHatSwitch(int, int)",
     "name" : "setHatSwitch",
     "type" : "function"
   },
@@ -222,6 +249,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "void transfer(void*, size_t)",
     "name" : "transfer",
     "type" : "function"
   },
@@ -239,6 +267,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\Pose.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\XboxButtons.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\EmulationMode.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h" ],
+    "signature" : "void tokenize(std::string const&, char const, std::vector<std::string>&)",
     "all_calls_detected" : [ "s.find(delim, end)", "out.push_back(s.substr(beg, end - beg))", "s.substr(beg, end - beg)", "out.push_back(s.substr(beg))", "s.substr(beg)" ],
     "name" : "tokenize",
     "type" : "function"
@@ -249,6 +279,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setZAxis(int)",
     "name" : "setZAxis",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
     "type" : "function"
@@ -259,6 +290,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h" ],
+    "signature" : "void loop()",
     "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\GearSensor::process()", "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h\\GearSensor\\getGear()", "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
     "all_calls_detected" : [ "gearSensor.process()", "gearSensor.getGear()", "can.newVehicleData()", "gearSensor.getGear()", "updatePose(pose)" ],
     "name" : "loop",
@@ -270,6 +303,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h" ],
+    "signature" : "void setupJoystick()",
     "name" : "setupJoystick",
     "type" : "function"
   },
@@ -279,6 +314,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h" ],
+    "signature" : "void updatePose(Pose)",
     "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setXAxis(int)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setYAxis(int)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setZAxis(int)", "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\buttonForGear(Gear)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\releaseButton(unsigned char)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\pressButton(unsigned char)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\sendState()" ],
     "all_calls_detected" : [ "joystick->setXAxis(pose.steering)", "joystick->setYAxis(ACCEL_MAX - pose.accelerator)", "joystick->setZAxis(pose.brakes)", "buttonForGear(pose.gear)", "joystick->releaseButton(buttonForGear(lastGear))", "buttonForGear(lastGear)", "joystick->pressButton(button)", "joystick->pressButton(8)", "joystick->releaseButton(8)", "joystick->pressButton(9)", "joystick->releaseButton(9)", "joystick->sendState()" ],
     "name" : "updatePose",
@@ -299,6 +336,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h" ],
+    "signature" : "void setupCAN()",
     "name" : "setupCAN",
     "type" : "function"
   },
@@ -308,6 +347,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setRyAxis(int)",
     "name" : "setRyAxis",
     "type" : "function"
   },
@@ -317,6 +357,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.h" ],
+    "signature" : "void CANProcessor::updateTelemetry(float, int)",
     "name" : "CANProcessor::updateTelemetry",
     "type" : "function"
   },
@@ -325,6 +367,7 @@
 }, {
   "metadata" : {
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.h",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\Pose.h" ],
     "name" : "CANProcessor",
     "type" : "class"
   },
@@ -334,6 +377,8 @@
   "metadata" : {
     "return_type" : "bool",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.h" ],
+    "signature" : "bool CANProcessor::processFrame(CAN_FRAME&)",
     "name" : "CANProcessor::processFrame",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)" ],
     "type" : "function"
@@ -344,6 +389,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setYAxis(int)",
     "name" : "setYAxis",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
     "type" : "function"
@@ -354,6 +400,7 @@
   "metadata" : {
     "return_type" : "",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "Joystick_(unsigned char, unsigned char, unsigned char, unsigned char, bool, bool, bool, bool, bool, bool, bool, bool, bool, bool, bool)",
     "name" : "Joystick_",
     "type" : "function"
   },
@@ -363,6 +410,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setThrottle(int)",
     "name" : "setThrottle",
     "type" : "function"
   },
@@ -372,6 +420,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setAutoSendState(bool)",
     "name" : "setAutoSendState",
     "type" : "function"
   },
@@ -381,6 +430,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "void setClockDivider(unsigned char)",
     "name" : "setClockDivider",
     "type" : "function"
   },
@@ -390,6 +440,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "void setDataMode(unsigned char)",
     "name" : "setDataMode",
     "type" : "function"
   },
@@ -399,6 +450,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setRzAxis(int)",
     "name" : "setRzAxis",
     "type" : "function"
   },
@@ -408,6 +460,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setRudder(int)",
     "name" : "setRudder",
     "type" : "function"
   },
@@ -417,6 +470,8 @@
   "metadata" : {
     "return_type" : "",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h" ],
+    "signature" : "CANRaw::CANRaw(int)",
     "name" : "CANRaw::CANRaw",
     "type" : "function"
   },
@@ -426,6 +481,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void sendState()",
     "name" : "sendState",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\updatePose(Pose)" ],
     "type" : "function"
@@ -436,6 +492,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h" ],
+    "signature" : "void setup()",
     "name" : "setup",
     "type" : "function"
   },
@@ -445,6 +503,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setButton(unsigned char, unsigned char)",
     "name" : "setButton",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\pressButton(unsigned char)", "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\releaseButton(unsigned char)" ],
     "type" : "function"
@@ -463,6 +522,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.h" ],
+    "signature" : "void CANProcessor::updateDashboard()",
     "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\CANRaw::sendFrame(CAN_FRAME&)" ],
     "all_calls_detected" : [ "Can0.sendFrame(lastTransmissionFrame)", "Can0.sendFrame(lastBrakeSpeedFrame)" ],
     "name" : "CANProcessor::updateDashboard",
@@ -474,6 +535,8 @@
   "metadata" : {
     "return_type" : "bool",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h" ],
+    "signature" : "bool CANRaw::read(CAN_FRAME&)",
     "name" : "CANRaw::read",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)" ],
     "type" : "function"
@@ -484,6 +547,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setBrake(int)",
     "name" : "setBrake",
     "type" : "function"
   },
@@ -501,6 +565,8 @@
   "metadata" : {
     "return_type" : "bool",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.h" ],
+    "signature" : "bool CANProcessor::newVehicleData()",
     "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)" ],
     "all_calls_detected" : [ "checkBus(&Can0)", "checkBus(&Can1)" ],
     "name" : "CANProcessor::newVehicleData",
@@ -512,6 +578,8 @@
   "metadata" : {
     "return_type" : "Gear",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Pose.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\Gear.h" ],
+    "signature" : "Gear getGear()",
     "name" : "getGear",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp\\loop()" ],
     "type" : "function"
@@ -522,6 +590,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void pressButton(unsigned char)",
     "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h\\Joystick_\\setButton(unsigned char,unsigned char)" ],
     "all_calls_detected" : [ "setButton(button, 1)" ],
     "name" : "pressButton",
@@ -534,6 +603,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void end()",
     "name" : "end",
     "type" : "function"
   },
@@ -543,6 +613,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "void setBitOrder(unsigned char)",
     "name" : "setBitOrder",
     "type" : "function"
   },
@@ -552,6 +623,8 @@
   "metadata" : {
     "return_type" : "bool",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\due_can.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h", "E:\\Code\\LAB\\akautauto\\dataset_1\\GearSensor.h" ],
+    "signature" : "bool CANRaw::available()",
     "name" : "CANRaw::available",
     "called_by" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::checkBus(CANRaw*)" ],
     "type" : "function"
@@ -561,6 +634,7 @@
 }, {
   "metadata" : {
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Pose.h",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\Gear.h" ],
     "name" : "Pose",
     "type" : "struct"
   },
@@ -570,6 +644,7 @@
   "metadata" : {
     "return_type" : "bool",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "bool getAutoSendState()",
     "name" : "getAutoSendState",
     "type" : "function"
   },
@@ -579,6 +654,8 @@
   "metadata" : {
     "return_type" : "bool",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.h" ],
+    "signature" : "bool CANProcessor::checkBus(CANRaw*)",
     "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\CANRaw::available()", "E:\\Code\\LAB\\akautauto\\dataset_1\\dummy.cpp\\CANRaw::read(CAN_FRAME&)", "E:\\Code\\LAB\\akautauto\\dataset_1\\CANProcessor.cpp\\CANProcessor::processFrame(CAN_FRAME&)" ],
     "all_calls_detected" : [ "bus->available()", "bus->read(frame)", "processFrame(frame)" ],
     "name" : "CANProcessor::checkBus",
@@ -591,6 +668,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void begin(bool)",
     "name" : "begin",
     "type" : "function"
   },
@@ -616,6 +694,7 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\Joystick.h",
+    "signature" : "void setAccelerator(int)",
     "name" : "setAccelerator",
     "type" : "function"
   },
@@ -625,6 +704,8 @@
   "metadata" : {
     "return_type" : "void",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\main.cpp",
+    "imports" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\main.h" ],
+    "signature" : "void setupPotentiometers()",
     "calls" : [ "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h\\SPIClass\\begin()" ],
     "all_calls_detected" : [ "SPI.begin()" ],
     "name" : "setupPotentiometers",
@@ -636,6 +717,7 @@
   "metadata" : {
     "return_type" : "",
     "file_path" : "E:\\Code\\LAB\\akautauto\\dataset_1\\SPI.h",
+    "signature" : "SPISettings(unsigned long, unsigned char, unsigned char)",
     "name" : "SPISettings",
     "type" : "function"
   },
